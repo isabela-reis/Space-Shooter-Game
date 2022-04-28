@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #67018A;
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(img/space.png);
+    height: 600px;
+    width: 600px;
+    border-radius: 3%;
+}
+
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 4rem;
+    top: 0px;
+    font-family:'DotGothic16', sans-serif;
+    font-size: 20px;
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    top: 9rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(93, 13, 168);
+    width:180px;
+	height:90px;
+    margin-left:auto;
+    margin-right:auto;
+ 	margin-top:40px;
+	padding:6px;
+    font-family:'DotGothic16', sans-serif;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}

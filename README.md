@@ -1,4 +1,4 @@
-🎮🚀<h3>Jogo estilo Space Shooter</h3>🎮🚀
+<h3>🎮🚀Jogo estilo Space Shooter🎮🚀 </h3>
 
 Projeto para o bootcamp Órbi Web Games Developer da Digital Innovation One.
 
